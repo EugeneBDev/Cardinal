@@ -25,3 +25,4 @@ UniTest/*.user
 UniTest/*.userosscache
 UniTest/*.sln.docstates
 .vs/
+/CardinalProj/Migrations/
