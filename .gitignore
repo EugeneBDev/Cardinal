@@ -7,7 +7,6 @@
 UniTest/.idea/
 
 # Ignore Visual Studio directories and files
-CardinalProj/.vs/
 CardinalProj/obj/
 CardinalProj/bin/
 
@@ -24,5 +23,6 @@ UniTest/*.suo
 UniTest/*.user
 UniTest/*.userosscache
 UniTest/*.sln.docstates
-.vs/
-/CardinalProj/Migrations
+/CardinalProj/Migrations/*.cs
+/CardinalProj/Migrations/*.Designer.cs
+/CardinalProj/Migrations/*ModelSnapshot.cs
