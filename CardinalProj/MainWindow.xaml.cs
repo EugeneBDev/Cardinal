@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿
+using CardinalProj.Data;
+using Microsoft.EntityFrameworkCore;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -20,9 +19,12 @@ namespace CardinalProj
     /// </summary>
     public partial class MainWindow : Window
     {
+        private readonly DataContext dataContext;
         public MainWindow()
         {
             InitializeComponent();
+            dataContext = new DataContext();
+           // dataContext.Users.Load();
         }
     }
 }
